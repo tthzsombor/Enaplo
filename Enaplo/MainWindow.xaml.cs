@@ -44,5 +44,14 @@ namespace Enaplo
             jegyekAblak.Show(); 
         }
 
+        private void KijelentkezesButton_Click(object sender, RoutedEventArgs e)
+        {
+            var loginWindow = new LoginWindow();
+            loginWindow.Show();
+
+            this.Close();
+        }
+
+
     }
 }

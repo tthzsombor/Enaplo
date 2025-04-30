@@ -41,6 +41,9 @@
             <Button Content="Diákok" Width="200" Height="50" Click="DiakokButton_Click"/>
             <Button Content="Tantárgyak" Width="200" Height="50" Click="TantargyakButton_Click"/>
             <Button Content="Jegyek" Width="200" Height="50" Click="JegyekButton_Click"/>
+            <Button Content="Kijelentkezés" Width="200" Height="50" Click="KijelentkezesButton_Click"/>
+
+
         </StackPanel>
     </Grid>
 </Window>
