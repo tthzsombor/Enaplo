@@ -64,7 +64,7 @@
         <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 10">
             <ComboBox x:Name="DiakComboBox" Height="40" Width="150" Margin="10" DisplayMemberPath="Nev" />
             <ComboBox x:Name="TantargyComboBox" Height="40" Width="150" Margin="10" DisplayMemberPath="Tantargynev" />
-            <TextBox x:Name="ErtekTextBox" Width="50" Margin="10" Height="40" />
+            <TextBox x:Name="ErtekTextBox" Width="50" Margin="10" Height="40"  />
             <Button Content="Hozzáad" Click="Hozzaad_Click" Width="120" Margin="10"/>
             <Button Content="Törlés" Click="Torles_Click" Width="120" Margin="10" Background="Red"/>
         </StackPanel>
