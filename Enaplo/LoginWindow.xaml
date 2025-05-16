@@ -37,7 +37,7 @@
 
     <Grid Margin="20">
         <StackPanel VerticalAlignment="Center">
-            <TextBlock Text="E-Napló bejelentkezés" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <TextBlock Text="Bejelentkezés" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
 
             <Label Content="Felhasználónév:"/>
             <TextBox x:Name="FelhasznaloTextBox"/>

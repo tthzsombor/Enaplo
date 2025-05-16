@@ -52,11 +52,11 @@
         </Grid.RowDefinitions>
 
         <!-- Jegyek táblázat -->
-        <DataGrid x:Name="JegyDataGrid" AutoGenerateColumns="False" Grid.Row="0" Margin="0 0 0 10" IsReadOnly="True">
+        <DataGrid x:Name="JegyDataGrid" AutoGenerateColumns="False" Grid.Row="0" Margin="0 0 0 10" IsReadOnly="True" SelectionChanged="JegyDataGrid_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Diák" Binding="{Binding Diak.Nev}" Width="Auto"/>
                 <DataGridTextColumn Header="Tantárgy" Binding="{Binding Tantargy.Tantargynev}" Width="*"/>
-                <DataGridTextColumn Header="Érték" Binding="{Binding Ertek}" Width="Auto"/>
+                <DataGridTextColumn Header="Jegy" Binding="{Binding Ertek}" Width="Auto"/>
             </DataGrid.Columns>
         </DataGrid>
 
